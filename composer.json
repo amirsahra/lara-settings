@@ -1,0 +1,32 @@
+{
+    "name": "amirsahra/lara-settings",
+    "description": "Settings that are related to the program and not related to the framework.",
+    "keywords": ["amirsahra","laravel setting","application setting"],
+    "homepage": "https://github.com/",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Amirsahra\\LaraSettings\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amirsahra\\laraSetting\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "amirsahra",
+            "email": "amirhosein.sahra@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
+}
